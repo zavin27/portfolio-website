@@ -7,9 +7,7 @@ class Layout extends Component {
     return (
       <Aux>
         <Navigation/>
-        <main>
           {this.props.children}
-        </main>
       </Aux>
     )
   }

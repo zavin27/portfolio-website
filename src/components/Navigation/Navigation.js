@@ -2,7 +2,7 @@ import React from 'react';
 import NavigationItem from './NavigationItem/NavigationItem';
 
 const Navigation = (props) => (
-  <div>
+  <header>
     <div className="menu-btn">
       <div className='btn-line'></div>
       <div className='btn-line'></div>
@@ -19,7 +19,7 @@ const Navigation = (props) => (
         <NavigationItem link="/contact">Contact</NavigationItem>
       </ul>
     </nav>
-  </div>
+  </header>
 );
 
 export default Navigation;
