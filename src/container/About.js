@@ -18,26 +18,25 @@ class About extends Component {
           <div className='about-info'>
             <img src={Portrait} className='bio-image' alt='Zavin Hussein'/>
             <div className="bio">
-              <h3 className="text-secondary">BIO</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab at atque, commodi consequatur dolor illo
-                ipsum itaque iusto maiores molestiae, nesciunt officia pariatur provident quod ratione recusandae
-                sapiente similique voluptatibus.</p>
+              <h3 className="text-secondary">Summary</h3>
+              <p>Hardworking, dedicated person, love to explore, always have a big hunger for new knowledge, optimist in
+                life, passionate about my work, willing to help others, fast learner.</p>
             </div>
-            <Job
-              jobClass='job-1'
-              jobDescription='job Description'
-              jobPosition='job position'
-              jobDetails='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque consectetur dolores eaque impedit natus numquam. Doloribus officia tempora tempore?'/>
-            <Job
-              jobClass='job-2'
-              jobDescription='job Description'
-              jobPosition='job position'
-              jobDetails='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque consectetur dolores eaque impedit natus numquam. Doloribus officia tempora tempore?'/>
-            <Job
-              jobClass='job-3'
-              jobDescription='job Description'
-              jobPosition='job position'
-              jobDetails='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque consectetur dolores eaque impedit natus numquam. Doloribus officia tempora tempore?'/>
+            {/*<Job*/}
+            {/*jobClass='job-1'*/}
+            {/*jobDescription='job Description'*/}
+            {/*jobPosition='job position'*/}
+            {/*jobDetails='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque consectetur dolores eaque impedit natus numquam. Doloribus officia tempora tempore?'/>*/}
+            {/*<Job*/}
+            {/*jobClass='job-2'*/}
+            {/*jobDescription='job Description'*/}
+            {/*jobPosition='job position'*/}
+            {/*jobDetails='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque consectetur dolores eaque impedit natus numquam. Doloribus officia tempora tempore?'/>*/}
+            {/*<Job*/}
+            {/*jobClass='job-3'*/}
+            {/*jobDescription='job Description'*/}
+            {/*jobPosition='job position'*/}
+            {/*jobDetails='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque consectetur dolores eaque impedit natus numquam. Doloribus officia tempora tempore?'/>*/}
           </div>
         </main>
         <Footer/>

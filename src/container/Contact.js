@@ -15,7 +15,7 @@ class Contact extends Component {
           <h2 className="sm-heading">This is how you can reach me...</h2>
           <div className="boxes">
             <div>
-              <span className='text-secondary'>Email:</span> ZavinHussein@gmail.com
+              <span className='text-secondary'>Email:</span> Zavinhussein@gmail.com
             </div>
             <div>
               <span className='text-secondary'>Phone:</span> +40 720964360

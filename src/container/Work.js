@@ -1,11 +1,8 @@
 import React, {Component} from 'react';
 import {Helmet} from "react-helmet";
 import ProjectItem from '../components/ProjectItem/Projectitem';
-import project1 from '../assets/images/project1.jpg';
-import project2 from '../assets/images/project2.jpg';
-import project3 from '../assets/images/project3.jpg';
-import project4 from '../assets/images/project4.jpg';
-import project5 from '../assets/images/project5.jpg';
+import BurgerBuilder from '../assets/images/Burger_builder.png';
+import ToDoList from '../assets/images/To-do-list.jpg';
 import Footer from '../components/Footer';
 
 
@@ -21,30 +18,15 @@ class Work extends Component {
           <h2 className="sm-heading">Check out some of my projects...</h2>
           <div className='projects'>
             <ProjectItem
-              projectName='Project'
-              projectLink='#'
-              githubLink='#'
-              imageSource={project1}/>
+              projectName='Burger Builder'
+              projectLink='https://react-my-burger-builder-33479.firebaseapp.com/'
+              githubLink='https://github.com/zavin27/Burger-Builder'
+              imageSource={BurgerBuilder}/>
             <ProjectItem
-              projectName='Project'
-              projectLink='#'
-              githubLink='#'
-              imageSource={project2}/>
-            <ProjectItem
-              projectName='Project'
-              projectLink='#'
-              githubLink='#'
-              imageSource={project3}/>
-            <ProjectItem
-              projectName='Project'
-              projectLink='#'
-              githubLink='#'
-              imageSource={project4}/>
-            <ProjectItem
-              projectName='Project'
-              projectLink='#'
-              githubLink='#'
-              imageSource={project5}/>
+              projectName='To Do List'
+              projectLink='http://desolate-reaches-48348.herokuapp.com/post'
+              githubLink='https://github.com/zavin27/To-Do-List'
+              imageSource={ToDoList}/>
           </div>
         </main>
         <Footer/>
