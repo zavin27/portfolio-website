@@ -12,11 +12,16 @@ class Layout extends Component {
     !this.state.showMenu ? this.setState({showMenu: true}) : this.setState({showMenu: false});
   };
   
+  onNavLinkClickedHandler = () => {
+    this.setState({showMenu: false})
+  };
+  
   render() {
     return (
       <Aux>
         <Navigation
           clicked={this.menuToggleHandler}
+          navClicked={this.onNavLinkClickedHandler}
           show={this.state.showMenu}/>
           {this.props.children}
       </Aux>
