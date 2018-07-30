@@ -6,9 +6,10 @@ import project2 from '../assets/images/project2.jpg';
 import project3 from '../assets/images/project3.jpg';
 import project4 from '../assets/images/project4.jpg';
 import project5 from '../assets/images/project5.jpg';
+import Footer from '../components/Footer';
 
 
-class About extends Component {
+class Work extends Component {
   render() {
     return (
       <div>
@@ -46,12 +47,10 @@ class About extends Component {
               imageSource={project5}/>
           </div>
         </main>
-        <footer id='main-footer'>
-          Copyright &copy; 2018
-        </footer>
+        <Footer/>
       </div>
     )
   }
 }
 
-export default About;
+export default Work;
