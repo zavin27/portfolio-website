@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Helmet} from "react-helmet";
 import Portrait from '../assets/images/portrait.jpg';
 import Job from '../components/Job/Job';
+import Footer from '../components/Footer';
 
 
 class About extends Component {
@@ -13,7 +14,7 @@ class About extends Component {
         </Helmet>
         <main id='about'>
           <h1 className="lg-heading">About <span className="text-secondary">Me</span></h1>
-          <h2 className="sm-heading">Let me tell you a few things</h2>
+          <h2 className="sm-heading">Let me tell you a few things...</h2>
           <div className='about-info'>
             <img src={Portrait} className='bio-image' alt='Zavin Hussein'/>
             <div className="bio">
@@ -39,9 +40,7 @@ class About extends Component {
               jobDetails='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque consectetur dolores eaque impedit natus numquam. Doloribus officia tempora tempore?'/>
           </div>
         </main>
-        <footer id='main-footer'>
-          Copyright &copy; 2018
-        </footer>
+        <Footer/>
       </div>
     )
   }
