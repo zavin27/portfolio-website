@@ -10,6 +10,7 @@ class Home extends Component {
     return (
       <div>
         <Helmet>
+          <title>Welcome To My Portfolio</title>
           <body id='bg-img'></body>
         </Helmet>
         <main id='home'>

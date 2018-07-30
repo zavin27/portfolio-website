@@ -25,10 +25,10 @@ const Navigation = (props) => {
           <div className='portrait'></div>
         </div>
         <ul className={'menu-nav ' + show}>
-          <NavigationItem link="/" show={show}>Home</NavigationItem>
-          <NavigationItem link="/about" show={show}>About Me</NavigationItem>
-          <NavigationItem link="/work" show={show}>My Work</NavigationItem>
-          <NavigationItem link="/contact" show={show}>Contact</NavigationItem>
+          <NavigationItem link="/" show={show} navClicked={props.navClicked}>Home</NavigationItem>
+          <NavigationItem link="/about" show={show} navClicked={props.navClicked}>About Me</NavigationItem>
+          <NavigationItem link="/work" show={show} navClicked={props.navClicked}>My Work</NavigationItem>
+          <NavigationItem link="/contact" show={show} navClicked={props.navClicked}>Contact</NavigationItem>
         </ul>
       </nav>
     </header>
