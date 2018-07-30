@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import './scss/main.scss';
 import Home from './container/Home';
 import About from './container/About';
+import Work from './container/Work';
 import Layout from "./hoc/Layout";
 import {Route, Switch, Redirect} from 'react-router-dom';
 
@@ -15,6 +16,7 @@ class App extends Component {
           <Switch>
             <Route path='/' exact component={Home}/>
             <Route path='/about' component={About}/>
+            <Route path='/work' component={Work}/>
             <Redirect to='/'/>
           </Switch>
           

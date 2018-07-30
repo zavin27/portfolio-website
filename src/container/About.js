@@ -13,7 +13,7 @@ class About extends Component {
         </Helmet>
         <main id='about'>
           <h1 className="lg-heading">About <span className="text-secondary">Me</span></h1>
-          <h2 className="sm-heading">Let me tell you a few things</h2>
+          <h2 className="sm-heading">Let me tell you a few things...</h2>
           <div className='about-info'>
             <img src={Portrait} className='bio-image' alt='Zavin Hussein'/>
             <div className="bio">
