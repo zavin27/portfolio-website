@@ -8,7 +8,7 @@ class Contact extends Component {
     return (
       <div>
         <Helmet>
-          <title>Contact Me</title>
+          <title>Zavin Hussein | Contact Me</title>
         </Helmet>
         <main id='contact'>
           <h1 className="lg-heading">Contact <span className="text-secondary">Me</span></h1>

@@ -11,7 +11,7 @@ class Work extends Component {
     return (
       <div>
         <Helmet>
-          <title>View My Work</title>
+          <title>Zavin Hussein | View My Work</title>
         </Helmet>
         <main id='work'>
           <h1 className="lg-heading">My <span className="text-secondary">Work</span></h1>

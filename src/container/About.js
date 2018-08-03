@@ -10,7 +10,7 @@ class About extends Component {
     return (
       <div>
         <Helmet>
-          <title>About Me</title>
+          <title>Zavin Hussein | About Me</title>
         </Helmet>
         <main id='about'>
           <h1 className="lg-heading">About <span className="text-secondary">Me</span></h1>
