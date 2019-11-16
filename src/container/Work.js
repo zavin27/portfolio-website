@@ -1,7 +1,5 @@
 import React from 'react';
 import ProjectItem from '../components/ProjectItem/ProjectItem';
-import BurgerBuilder from '../assets/images/Burger_builder.png';
-import ToDoList from '../assets/images/To-do-list.jpg';
 import Footer from '../components/Footer';
 
 
@@ -15,12 +13,12 @@ const Work = () => (
 					projectName='Burger Builder'
 					projectLink='https://react-my-burger-builder-33479.firebaseapp.com/'
 					githubLink='https://github.com/zavin27/Burger-Builder'
-					imageSource={BurgerBuilder}/>
+					imageSource={require('../assets/images/Burger_builder.png')}/>
 				<ProjectItem
 					projectName='To Do List'
 					projectLink='http://desolate-reaches-48348.herokuapp.com/post'
 					githubLink='https://github.com/zavin27/To-Do-List'
-					imageSource={ToDoList}/>
+					imageSource={require('../assets/images/To-do-list.jpg')}/>
 			</div>
 		</main>
 		<Footer/>
