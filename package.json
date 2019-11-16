@@ -23,7 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build",
-    "predeploy": "npm run sitemap",
+    "predeploy": "npm run build && npm run sitemap",
     "sitemap": "node ./src/sitemap-generator.js"
   },
   "eslintConfig": {

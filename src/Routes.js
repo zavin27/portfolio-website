@@ -1,4 +1,4 @@
-import {Route, Switch} from "react-router-dom";
+import {Route, Switch, Redirect} from "react-router-dom";
 import Home from "./container/Home";
 import About from "./container/About";
 import Work from "./container/Work";
@@ -11,6 +11,6 @@ export default () => (
 		<Route path='/about' component={About}/>
 		<Route path='/work' component={Work}/>
 		<Route path='/contact' component={Contact}/>
-		<Route />
+		<Redirect to={'/'}/>
 	</Switch>
 )
