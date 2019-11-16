@@ -1,7 +1,6 @@
 $primary-color: #222222;
 $secondary-color: #f9f807;
 $show-home-image: true;
-$home-image: url(../assets/images/Autumn_fireball.jpg);
 $background-opacity: 0.6;
 
 @mixin easeOut {
@@ -11,22 +10,16 @@ $background-opacity: 0.6;
 @mixin background {
   @if $show-home-image {
     &#bg-img {
-      background: $home-image;
-      background-attachment: fixed;
-      background-size: cover;
-
-      &:after {
-        content: '';
-        position: absolute;
-        top: 0;
-        right: 0;
-        z-index: -1;
-        width: 100%;
-        height: 100%;
-        background: rgba($primary-color, $background-opacity);
-      }
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: -1;
+      flex: 1;
+      width: 100%;
+      height: 100%;
+      opacity: $background-opacity;
     }
-
   }
 }
 
